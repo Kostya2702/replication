@@ -1,0 +1,21 @@
+{
+	"grant-service": {
+		"object_owner": {
+			"roles": [
+				"GEN_GRANTOR_ROLE"
+			],
+			"object_privileges": [{
+				"name":"remote_postgresql_tdunit",
+				"type":"REMOTE SOURCE",
+				"privileges_with_grant_options":[
+					"CREATE VIRTUAL TABLE", "CREATE REMOTE SUBSCRIPTION", "CREATE VIRTUAL FUNCTION", "LINKED DATABASE", "PROCESS REMOTE SUBSCRIPTION EXCEPTION", "ALTER", "DROP"
+				]
+			}]
+		},
+		"application_user": {
+			"roles": [
+				"GEN_GRANTOR_ROLE"
+			]
+		}
+	}
+}

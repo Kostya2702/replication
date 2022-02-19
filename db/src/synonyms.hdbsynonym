@@ -1,0 +1,8 @@
+{
+    "tdunit_customer": {
+        "target": {
+            "object": "TARGET_customer",
+            "schema": "4A105CC0A095429AB1F3BA3D0652555C"
+        }
+    }
+}

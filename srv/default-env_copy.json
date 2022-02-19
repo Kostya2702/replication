@@ -1,0 +1,30 @@
+{
+	"VCAP_SERVICES": {
+		"hana": [
+			{
+				"name": "tdunit_report-db",
+				"instance_name": "tdunit_report-db",
+				"label": "hana",
+				"tags": [
+					"hana",
+					"database",
+					"relational"
+				],
+				"plan": "hdi-shared",
+				"credentials": {
+					"driver": "com.sap.db.jdbc.Driver",
+					"hdi_password": "Tm4RCXzaaya3IVl8e12Y5iHhNm6X20X8dThzqvevyU9JDLqiPikiddQVWTHUruFaOpSbmNfMYFgbd41o9DdghNcxrk2_nKOpd3EilSF4.Ikdej_zrSQGjfWrC6iCuO3w",
+					"hdi_user": "4A105CC0A095429AB1F3BA3D0652555C_8CTBKGMGW1CONLJW063AYWU7C_DT",
+					"host": "a5b64d1a-1331-4535-a88c-5eae95ed4b06.hana.prod-eu20.hanacloud.ondemand.com",
+					"password": "Qc23.ruH8qbGFKaEkw.wp1-BiEO6AKywfTAnt.L2cw64KkZrDATYpueON_gxq-7vVYXz.KNzNBx4YfTIZlzc0Yvz0uHezS5KD3OnmF0G.RbytH-fvfFoFlXRc1q8aO0e",
+					"port": "443",
+					"schema": "4A105CC0A095429AB1F3BA3D0652555C",
+					"url": "jdbc:sap://a5b64d1a-1331-4535-a88c-5eae95ed4b06.hana.prod-eu20.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=4A105CC0A095429AB1F3BA3D0652555C",
+					"user": "4A105CC0A095429AB1F3BA3D0652555C_8CTBKGMGW1CONLJW063AYWU7C_RT",
+					"encrypt": true,
+					"sslValidateCertificate": false
+				}
+			}
+		]
+	}
+}

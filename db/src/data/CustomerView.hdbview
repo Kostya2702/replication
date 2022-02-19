@@ -1,0 +1,10 @@
+VIEW "CustomerView" (
+    "customer_id",
+    "customer_name",
+    "customer_company"
+    ) AS SELECT
+    "Item_$0"."customer_id" AS "customer_id",
+    "Item_$0"."customer_name" AS "customer_name",
+    "Item_$0"."customer_company" AS "customer_company"
+FROM "TARGET_customer" AS "Item_$0" 
+WITH READ ONLY STRUCTURED PRIVILEGE CHECK
